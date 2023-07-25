@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &869560082507928382
 RectTransform:
   m_ObjectHideFlags: 0
@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 6536982238951872696}
   m_Layer: 8
   m_Name: SlimyBoi
-  m_TagString: TD_Enemy
+  m_TagString: Entity
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -213,8 +213,7 @@ MonoBehaviour:
   currentNode: 0
   currentWaypoint: 0
   HPBar: {fileID: 996797779727123625}
-  waypointRoute:
-  - {fileID: 0}
+  waypointRoute: []
 --- !u!114 &869560082530134856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -380,7 +379,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 8536512838987739731, guid: 5b71bb1d084eeac4cbcbe624eb031f8b, type: 3}
+  m_Sprite: {fileID: -4824743347762680713, guid: 5b71bb1d084eeac4cbcbe624eb031f8b, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 0

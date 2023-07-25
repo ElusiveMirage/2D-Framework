@@ -944,10 +944,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 869560082507928381, guid: 3ad2ad3d278fd4e42a92244d1361a56f, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 869560082530134855, guid: 3ad2ad3d278fd4e42a92244d1361a56f, type: 3}
       propertyPath: m_Name
       value: SlimyBoi
@@ -966,7 +962,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 869560082530134858, guid: 3ad2ad3d278fd4e42a92244d1361a56f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 869560082530134858, guid: 3ad2ad3d278fd4e42a92244d1361a56f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1001,17 +997,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 869560082530134859, guid: 3ad2ad3d278fd4e42a92244d1361a56f, type: 3}
+      propertyPath: waypointRoute.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 869560082530134859, guid: 3ad2ad3d278fd4e42a92244d1361a56f, type: 3}
       propertyPath: waypointRoute.Array.data[0]
       value: 
       objectReference: {fileID: 886219566}
-    - target: {fileID: 1401163962236258080, guid: 3ad2ad3d278fd4e42a92244d1361a56f, type: 3}
-      propertyPath: m_Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401163962236258080, guid: 3ad2ad3d278fd4e42a92244d1361a56f, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -4824743347762680713, guid: 5b71bb1d084eeac4cbcbe624eb031f8b, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4546,7 +4538,7 @@ PrefabInstance:
       objectReference: {fileID: 1169778414}
     - target: {fileID: 786966620824306720, guid: 141a940c3186cb74ba46f191352e6c54, type: 3}
       propertyPath: m_Name
-      value: GAMEPLAY_ESSENTIALS_EXAMPLE
+      value: GAMEPLAY_ESSENTIALS
       objectReference: {fileID: 0}
     - target: {fileID: 786966620824306723, guid: 141a940c3186cb74ba46f191352e6c54, type: 3}
       propertyPath: m_RootOrder
